@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: abhi
+      POSTGRES_PASSWORD: one2three
+      POSTGRES_DB: mydb
+    ports:
+      - "5432:5432"

@@ -1,0 +1,14 @@
+.venv 
+*ruff_cache
+*CLAUDE.md
+CLAUDE.md
+
+
+
+# Python cache files and folders
+__pycache__/
+*.py[cod]
+
+# Ignore all __pycache__ folders at any level
+**/__pycache__/
+.env

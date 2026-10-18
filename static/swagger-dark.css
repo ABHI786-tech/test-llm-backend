@@ -1,0 +1,147 @@
+
+/* Main background */
+body,
+.swagger-ui,
+.swagger-ui .wrapper {
+    background-color: #111827 !important;
+    color: #f9fafb !important;
+}
+
+/* General text */
+.swagger-ui .info .title,
+.swagger-ui .info p,
+.swagger-ui .info li,
+.swagger-ui .opblock-tag,
+.swagger-ui label,
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__type,
+.swagger-ui .response-col_status,
+.swagger-ui .response-col_description,
+.swagger-ui .model-title,
+.swagger-ui .model,
+.swagger-ui table thead tr th,
+.swagger-ui table tbody tr td,
+.swagger-ui .markdown p,
+.swagger-ui .markdown li {
+    color: #f9fafb !important;
+}
+
+/* Top navigation */
+.swagger-ui .topbar {
+    background-color: #030712 !important;
+}
+
+/* API endpoint cards */
+.swagger-ui .opblock {
+    background-color: #1f2937 !important;
+    border-color: #4b5563 !important;
+}
+
+.swagger-ui .opblock .opblock-summary {
+    border-color: #4b5563 !important;
+}
+
+.swagger-ui .opblock .opblock-section-header {
+    background-color: #374151 !important;
+}
+
+.swagger-ui .opblock .opblock-section-header h4,
+.swagger-ui .opblock .opblock-summary-description {
+    color: #ffffff !important;
+}
+
+/* Input fields */
+.swagger-ui input,
+.swagger-ui textarea,
+.swagger-ui select,
+.swagger-ui .search-container input {
+    background-color: #111827 !important;
+    color: #ffffff !important;
+    border: 1px solid #4b5563 !important;
+}
+
+/* Placeholder text */
+.swagger-ui input::placeholder,
+.swagger-ui textarea::placeholder {
+    color: #9ca3af !important;
+}
+
+/* Buttons */
+.swagger-ui .btn {
+    color: #ffffff !important;
+    border-color: #9ca3af !important;
+}
+
+.swagger-ui .btn.execute {
+    background-color: #2563eb !important;
+    border-color: #2563eb !important;
+}
+
+/* Code and response areas */
+.swagger-ui pre,
+.swagger-ui .highlight-code,
+.swagger-ui .microlight,
+.swagger-ui .model-box,
+.swagger-ui .responses-wrapper {
+    background-color: #0b1120 !important;
+    color: #ffffff !important;
+}
+
+/* Schema section */
+.swagger-ui section.models {
+    background-color: #1f2937 !important;
+    border: 1px solid #4b5563 !important;
+}
+
+.swagger-ui section.models h4,
+.swagger-ui section.models h5,
+.swagger-ui .model-container {
+    color: #ffffff !important;
+}
+
+/* Tables */
+.swagger-ui table,
+.swagger-ui table thead tr,
+.swagger-ui table tbody tr {
+    background-color: #1f2937 !important;
+}
+
+/* Links */
+.swagger-ui a {
+    color: #60a5fa !important;
+}
+
+/* Server dropdown */
+.swagger-ui .servers > label,
+.swagger-ui .servers-title {
+    color: #ffffff !important;
+}
+
+/* Authorization modal */
+.swagger-ui .dialog-ux .modal-ux {
+    background-color: #1f2937 !important;
+}
+
+.swagger-ui .dialog-ux .modal-ux-header h3,
+.swagger-ui .dialog-ux .modal-ux-content,
+.swagger-ui .dialog-ux label {
+    color: #ffffff !important;
+}
+
+/* Response status and descriptions */
+.swagger-ui .response,
+.swagger-ui .responses-inner h4,
+.swagger-ui .responses-inner h5 {
+    color: #ffffff !important;
+}
+
+/* Filter and section borders */
+.swagger-ui .opblock-tag {
+    border-bottom-color: #374151 !important;
+}
+
+/* JSON response text */
+.swagger-ui .response pre,
+.swagger-ui .body pre {
+    color: #ffffff !important;
+}
